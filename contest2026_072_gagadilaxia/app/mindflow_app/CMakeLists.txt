@@ -1,0 +1,12 @@
+if(CONFIG_EXAMPLES_MINDFLOW_AGENT)
+  nuttx_add_application(
+    NAME
+    mindflow
+    STACKSIZE
+    ${CONFIG_DEFAULT_TASK_STACKSIZE}
+    MODULE
+    ${CONFIG_EXAMPLES_MINDFLOW_AGENT}
+    SRCS
+    mindflow_main.c
+    mindflow_audio.c)
+endif()

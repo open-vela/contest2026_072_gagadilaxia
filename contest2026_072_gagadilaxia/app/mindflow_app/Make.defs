@@ -1,0 +1,7 @@
+############################################################################
+# Contest 2026 team 072 - MindFlow Agent App - Make.defs
+############################################################################
+
+ifneq ($(CONFIG_EXAMPLES_MINDFLOW_AGENT),)
+CONFIGURED_APPS += $(APPDIR)/packages/demos/contest2026_072_mindflow_app
+endif
