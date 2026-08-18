@@ -1,0 +1,7 @@
+# ESP32-S3-EYE 摄像头配置
+# 硬件：OV2640，输出格式固定为 YUV422
+camera:
+  device_path: "/dev/video2"      # 虚拟机用 /dev/video2，开发板改为 /dev/video0
+  format: "YUV422"
+  width: 320
+  height: 240

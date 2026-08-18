@@ -1,0 +1,6 @@
+config EXAMPLES_MINDFLOW_AGENT
+	tristate "Contest 2026 team 072 - MindFlow Agent (主动认知调节智能体)"
+	default n
+	---help---
+		Enable MindFlow Agent. 面向学生和办公人群，通过视觉、语音、
+		行为数据主动感知用户专注度与情绪，识别拖延并主动干预。
